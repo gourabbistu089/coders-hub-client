@@ -58,7 +58,7 @@ function UserCard({profiles}) {
     }
     
     setDirection(direction);
-    setSwipeText(direction === "left" ? "LIKED" : "NOPE");
+    setSwipeText(direction === "left" ? "NOPE" : "LIKED");
 
 
     let feelings = direction === "right" ? "interested" : "ignored";
